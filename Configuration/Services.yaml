@@ -1,0 +1,12 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  Bnf\DiInLocalconf\:
+    resource: '../Classes/*'
+
+  Bnf\DiInLocalconf\ExampleService:
+    public: true
+
