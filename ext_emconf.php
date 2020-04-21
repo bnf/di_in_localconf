@@ -1,5 +1,4 @@
 <?php
-
 $EM_CONF[$_EXTKEY] = array(
     'title' => 'Demo Dependency Injection usage in localconf',
     'category' => '',
@@ -10,7 +9,7 @@ $EM_CONF[$_EXTKEY] = array(
     'uploadfolder' => '0',
     'createDirs' => '',
     'clearCacheOnLoad' => 0,
-    'version' => '0.4.0',
+    'version' => '0.5.0',
     'constraints' => array(
         'depends' => array(
             'typo3' => '10.3.0-10.4.99',
