@@ -14,7 +14,6 @@ class ExampleService
 
     public function __construct(SiteConfiguration $siteConfiguration)
     {
-        return null;
     }
 
     public function doFoo(): void
